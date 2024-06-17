@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>File Upload</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <div class="centered-form">
+        <a href="#post-form" class="button">Create New Thread</a>
+    </div>
+
+    <div id="post-form" class="post-form">
+        <div class="centered-form">
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="parent_id" value="0">
+                <input type="text" name="title" maxlength="30" placeholder="Title - 30 char max" required><br>
+                <textarea name="message" maxlength="50000" placeholder="Message - 50k char max" required></textarea><br>
+                <input type="file" name="file"><br>
+                <button type="submit">Upload</button>
+            </form>
+        </div>
+    </div>
+
+    {{POSTS}}
+    <div class="pagination">
+        {{PAGINATION}}
+    </div>
+</body>
+</html>

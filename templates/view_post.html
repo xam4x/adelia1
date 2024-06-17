@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>View Post</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <div class="back-link"><a href="/"><button>Return to Main Board</button></a></div>
+    <div class="centered-form">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="parent_id" value="{{PARENT_ID}}">
+            <input type="text" name="title" maxlength="30" placeholder="Title - 30 char max" required><br>
+            <textarea name="message" maxlength="50000" placeholder="Message - 50k char max" required></textarea><br>
+            <input type="file" name="file"><br>
+            <button type="submit">Reply</button>
+        </form>
+    </div>
+    {{POSTS}}
+</body>
+</html>

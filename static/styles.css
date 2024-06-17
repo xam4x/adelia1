@@ -1,0 +1,243 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+textarea, input[type="text"] {
+    width: 100%;
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+textarea {
+    height: 200px; /* Adjust this value to make the textarea more square */
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+.post {
+    background-color: #1e1e1e;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+    border-bottom: 5px solid #333333;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-id {
+    font-weight: bold;
+}
+
+.reply-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px; /* Regular-sized text */
+    padding: 2px 5px; /* Less vertical padding */
+}
+
+.reply-button:hover {
+    background-color: #0056b3;
+}
+
+.view-full-post {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Regular-sized text */
+    padding: 2px 5px; /* Less vertical padding */
+}
+
+.view-full-post:hover {
+    background-color: #0056b3;
+}
+
+.home-button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: #ffffff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    margin: 0 5px;
+}
+
+.pagination a:hover {
+    background-color: #444444;
+}
+
+.replies {
+    margin-top: 20px;
+}
+
+.responsive-img {
+    width: auto;
+    max-width: 75px;
+    height: auto;
+    max-height: 75px;
+    display: block;
+    margin: 10px 0;
+}
+
+.post-content {
+    margin-top: 30px;
+}
+
+.centered-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+img, video {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.back-link {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.back-link button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-link button:hover {
+    background-color: #0056b3;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.post-form {
+    display: none;
+}
+
+.post-form:target {
+    display: block;
+}
+
+.post-id-box {
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px; /* Regular-sized text */
+}
+
+.title-green {
+    color: #00ff00;
+    font-size: 1.5em; /* This is the size for h4 */
+    margin: 0.5em 0;
+}
+
+
+
+
+
+
+
